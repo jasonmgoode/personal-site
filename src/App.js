@@ -10,6 +10,9 @@ function App() {
         <p>
           Coming Soon.
         </p>
+        <p>
+          Another Test
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
