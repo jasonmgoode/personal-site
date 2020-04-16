@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+// import clock from './clock.svg';
 import './App.css';
 
 function App() {
@@ -10,17 +11,6 @@ function App() {
         <p>
           Coming Soon.
         </p>
-        <p>
-          Another Test
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
