@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import {Navbar, Nav} from 'react-bootstrap';
 
 
@@ -7,16 +6,12 @@ function MyNavbar() {
   return (
     <div className="Navbar">
       <Navbar fixed="top" bg="dark" variant="dark">
-        {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
-        <Nav className="mr-auto">
+        <Navbar.Brand href="#home">Jason Goode</Navbar.Brand>
+        <Nav className="ml-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#contac">Contact</Nav.Link>
         </Nav>
-        {/* <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form> */}
       </Navbar>
       <br />
     </div>
