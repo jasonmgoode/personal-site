@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from '../logo.svg';
-// import clock from './clock.svg';
 import '../App.css';
-import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 
 
 function MyNavbar() {

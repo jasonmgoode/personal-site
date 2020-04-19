@@ -7,10 +7,12 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <div>
     <MyNavbar />
     <App />
-  </React.StrictMode>,
+  </div>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
