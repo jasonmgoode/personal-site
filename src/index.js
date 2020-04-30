@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyNavbar from './components/Navbar';
 import App from './App.js';
+import MyNavbar from './components/Navbar.js';
+import MyFooter from './components/Footer.js';
+import {Container, Row, Col} from 'react-bootstrap';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import acn from './images/accenture-logo.png';
+import uchicago from './images/uchicago-logo.png';
+
 
 ReactDOM.render(
   <React.StrictMode>

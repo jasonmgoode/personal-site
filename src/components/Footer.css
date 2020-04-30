@@ -1,0 +1,16 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #343a40;
+}
+
+.email {
+    color: #00ADBD;
+    font-weight: bold;
+    margin: 10px;
+}
+  

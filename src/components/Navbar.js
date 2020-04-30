@@ -1,20 +1,19 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
-
+import {Navbar, Nav, Container} from 'react-bootstrap';
 
 function MyNavbar() {
   return (
-    <div className="Navbar">
+    <Container>
       <Navbar fixed="top" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Jason Goode</Navbar.Brand>
+        {/* <Navbar.Brand href="#home">Jason Goode</Navbar.Brand> */}
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#contac">Contact</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/experience.html">Experience</Nav.Link>
+          {/* <Nav.Link href="/skills.html">Skills</Nav.Link> */}
+          <Nav.Link href="/contact.html">Contact</Nav.Link>
         </Nav>
       </Navbar>
-      <br />
-    </div>
+    </Container>
   );
 }
 
