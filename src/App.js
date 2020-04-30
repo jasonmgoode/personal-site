@@ -10,7 +10,7 @@ function App() {
   return (
     <React.Fragment>
       {/* <Navbar /> */}
-      <div className="view">
+      <div style={{backgroundImage: 'url(' + require('./images/hrd.jpg') + ')'}} className="view">
         <Container fluid>
           <Row fluid> 
           {/* <Row fluid className="align-items-center"> */}
