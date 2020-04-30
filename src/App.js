@@ -5,12 +5,14 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
 function App() {
 
   return (
     <React.Fragment>
       {/* <Navbar /> */}
-      <div style={{backgroundImage: 'url(' + require('./images/hrd.jpg') + ')'}} className="view">
+      <div className="view">
         <Container fluid>
           <Row fluid> 
           {/* <Row fluid className="align-items-center"> */}

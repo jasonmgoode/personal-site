@@ -1,13 +1,14 @@
 
 .view {
+  background-image: url(../src/hrd.jpg);
+  background-size: 100% 100%;
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
-  /* background-image: url(../src/images/hrd.jpg); */
-  background-size: 100% 100%;
   opacity: 75%;
 } 
+
 
 .top-mg {
   height: 100%;
