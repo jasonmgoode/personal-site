@@ -32,7 +32,7 @@ function Footer() {
           </Col>
           <Col className="mx-auto text-center align-items-center">
             <div className="mx-auto d-block">
-              <a href="https://linkedin.com/in/jmgoode">
+              <a href="https://twitter.com/jm_goode">
                 <Image src={twitterLogo} width="40"/>
               </a>
             </div>
