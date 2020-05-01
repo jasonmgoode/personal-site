@@ -15,12 +15,12 @@ function App() {
       <div className="view">
         <Container fluid>
           <Row> 
-            <Col xs={12} sm={12} md={2} className="col text-center">
+            <Col xs={12} sm={12} md={2} className="text-center">
             </Col>
-            <Col xs={12} sm={12} md={2} className="col mx-auto text-center">
+            <Col xs={12} sm={12} md={2} className="mx-auto text-center">
               <Image fluid src={headshotPhoto} className="pic" />
             </Col>
-            <Col xs={12} sm={12} md={6} className="col m-auto text-left mytxt">
+            <Col xs={12} sm={12} md={6} className="m-auto text-left mytxt">
               <div className="m-auto">
                   <h1> Hi, I'm Jason. </h1>
                   <h3> I use technology to solve interesting problems. </h3> <br />
@@ -30,7 +30,7 @@ function App() {
                   </Button>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={2} className="col text-center">
+            <Col xs={12} sm={12} md={2} className="text-center">
             </Col>
           </Row >
           <Row>
