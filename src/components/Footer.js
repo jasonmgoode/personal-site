@@ -12,7 +12,12 @@ function Footer() {
       <Container fluid>
         <Row className="mx-auto align-items-center">
           <Col className="text-center">
-            <a className="email" href="mailto:jmg627@gmail.com">jmg627@gmail.com</a>
+            <a 
+              className="email" 
+              href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jmg627@gmail.com&su=Hello&tf=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >jmg627@gmail.com</a>
           </Col>
           <Col className="mx-auto text-center align-items-center">
             <div className="mx-auto d-block">
