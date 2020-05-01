@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Nav, Container, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
 import githubLogo from '../images/github-logo.png';
 import linkedinLogo from '../images/linkedin-logo.png';
 import twitterLogo from '../images/twitter-2012-positive-logo-916EDF1309-seeklogo.com.png';

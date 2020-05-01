@@ -1,26 +1,18 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.js';
-import {Container, Row, Col, Button, Image} from 'react-bootstrap';
+// import Navbar from './components/Navbar.js';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pdf from './JasonGoode_Resume.pdf';
-// import bg from './images/hrd.jpg';
-// import twitterLogo from './images/twitter-2012-positive-logo-916EDF1309-seeklogo.com.png';
 
 function App() {
 
-  // var bg = 'url(%PUBLIC_URL%/img/hrd.jpg)';
-  // var divStyle  = {
-  //   backgroundImage: bg
-  // };
-  // console.log(bg)
   return (
     <React.Fragment>
       {/* <Navbar /> */}
       <div className="view">
         <Container fluid>
-          {/* <Image src={twitterLogo} width="75" height="75"/> */}
           <Row> 
             <Col xs={2} sm={2} md={2} className="mx-auto text-center align-items-center">
             </Col>
