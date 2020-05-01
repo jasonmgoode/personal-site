@@ -1,8 +1,6 @@
 
 ## Personal Site
 
-Visit [https://jasonmgoode.com](https://jasonmgoode.com)
+Visit [jasonmgoode.com](https://www.jasonmgoode.com)
 
 Built with React Bootstrap and CRA
-
-More to come...
