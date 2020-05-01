@@ -5,89 +5,38 @@
   height: 100%;
   min-height: 100vh;
   width: 100%;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   opacity: 0.75;
 } 
 
+.pic {
+  max-height: 30vh;
+  max-width: 30vw;
+  border-radius: 50%;
+  padding: 10px;
+}
 
-.top-mg {
-  height: 100%;
-  width: 100%;
-  display: flex;
+h3 {
+  color: darkblue;
 }
-.row {
-  height: 20vh;
-}
+
+/* .col {  
+  border: 1px yellow solid;
+} */
 
 .mytxt {
   color: white;
+  font-size: calc(10px + 1vmin);
+
 }
 
 p {
-  font-size: 16px;
-}
-/* .col {
-  border: 1px solid black;
-} */
-/* .col {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  border: 1px solid yellow; 
-} */
-
-/* .row {
-  border: 1px solid red;
-  display: flex;
-  height: 100%;
-} */
-
-.left-panel {
-  /* min-height: 100vh; */
-  margin-bottom: 58px;
-  background-color: blue;
-  border: 1px black solid;
-}
-
-.right-panel {
-  /* min-height: 100vh; */
-  margin-bottom: 58px;
-  background-color: #f7f7f3;
-  border: 1px black solid;
+  font-size: calc(10px + 1vmin);
 }
 
 
-.navigation {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100px;
-  /* background-color: #343a40; */
-  background-color: blueviolet;
-  border: 2px greenyellow solid;
+.row {
+  min-height: 20vh;
 }
-
-.fill {
-  min-height: 100vh;
-  background-color: blue;
-  border: 3px brown solid;
-  display: flex;
-  align-items: stretch;
-}
-
-.App-header {
-  position: relative;
-  background-color: #809fde;
-  border: 1px greenyellow solid;
-  min-height: 100vh;
-  /* height: 100%; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-

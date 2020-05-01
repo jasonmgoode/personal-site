@@ -10,8 +10,8 @@ function Footer() {
   return (
     <footer className="footer">
       <Container fluid>
-        <Row className="mx-auto align-items-center">
-          <Col className="text-center">
+        <Row className="m-auto">
+          <Col className="my-auto mx-auto text-center">
             <a 
               className="email" 
               href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jmg627@gmail.com&su=Hello&tf=1"
@@ -19,24 +19,24 @@ function Footer() {
               rel="noopener noreferrer"
             >jmg627@gmail.com</a>
           </Col>
-          <Col className="mx-auto text-center align-items-center">
-            <div className="mx-auto d-block">
-              <a href="https://github.com/jasonmgoode">
-                <Image src={githubLogo} width="75"/>
+          <Col className="m-auto text-center">
+            <div className="mx-auto">
+              <a href="https://github.com/jasonmgoode" target="_blank" rel="noopener noreferrer">
+                <Image fluid src={githubLogo} width="60px" heigt="60px"/>
               </a>
             </div>
           </Col>
-          <Col className="mx-auto text-center align-items-center">
-            <div className="mx-auto d-block">
-              <a href="https://linkedin.com/in/jmgoode">
-                <Image src={linkedinLogo} width="40"/>
+          <Col className="m-auto text-center">
+            <div className="m-auto d-block">
+              <a href="https://linkedin.com/in/jmgoode" target="_blank" rel="noopener noreferrer">
+                <Image fluid src={linkedinLogo} width="40px" heigt="40px"/>
               </a>
             </div>
           </Col>
-          <Col className="mx-auto text-center align-items-center">
-            <div className="mx-auto d-block">
-              <a href="https://twitter.com/jm_goode">
-                <Image src={twitterLogo} width="40"/>
+          <Col className="m-auto text-center">
+            <div className="m-auto d-block">
+              <a href="https://twitter.com/jm_goode" target="_blank" rel="noopener noreferrer">
+                <Image fluid src={twitterLogo} width="40px" heigt="40px"/>
               </a>
             </div>
           </Col>

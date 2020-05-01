@@ -9,6 +9,7 @@
 }
 
 .email {
+    font-size: calc(10px + 1vmin);
     color: #17A2B8;
     font-weight: bold;
     margin: 10px;
