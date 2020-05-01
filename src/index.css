@@ -13,28 +13,3 @@ code {
 }
 
 
-.tester {
-  background-color: #41609e;
-  min-height: 30vh;
-  display: flex;
-  flex-wrap: nowrap;
-  border: 2px black solid;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-  /* margin-bottom: auto;
-  background-color: #282c34; */
-  /* height: 10vh;
-  margin: 2px;
-  display: flex;
-  border: 2px black solid;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
-

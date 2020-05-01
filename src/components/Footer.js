@@ -10,9 +10,7 @@ function Footer() {
   return (
     <footer className="footer">
       <Container fluid>
-        <Row fluid className="mx-auto align-items-center">
-          <Col>
-          </Col>
+        <Row className="mx-auto align-items-center">
           <Col className="text-center">
             <a className="email" href="mailto:jmg627@gmail.com">jmg627@gmail.com</a>
           </Col>
@@ -36,8 +34,6 @@ function Footer() {
                 <Image src={twitterLogo} width="40"/>
               </a>
             </div>
-          </Col>
-          <Col>
           </Col>
         </Row>
       </Container>
