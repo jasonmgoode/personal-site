@@ -15,7 +15,7 @@ function App() {
       <div className="view">
         <Container fluid>
           <Row> 
-            <Col xs={12} sm={12} md={2} className="text-center">
+            <Col xs={12} sm={12} md={2} className="m-auto text-center">
             </Col>
             <Col xs={12} sm={12} md={2} className="mx-auto text-center">
               <Image fluid src={headshotPhoto} className="pic" />
@@ -30,7 +30,7 @@ function App() {
                   </Button>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={2} className="text-center">
+            <Col xs={12} sm={12} md={2} className="m-auto text-center">
             </Col>
           </Row >
           <Row>

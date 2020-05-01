@@ -22,21 +22,21 @@ function Footer() {
           <Col className="m-auto text-center">
             <div className="mx-auto">
               <a href="https://github.com/jasonmgoode" target="_blank" rel="noopener noreferrer">
-                <Image fluid src={githubLogo} width="60px" heigt="60px"/>
+                <Image fluid src={githubLogo} width="60px" height="60px"/>
               </a>
             </div>
           </Col>
           <Col className="m-auto text-center">
             <div className="m-auto d-block">
               <a href="https://linkedin.com/in/jmgoode" target="_blank" rel="noopener noreferrer">
-                <Image fluid src={linkedinLogo} width="40px" heigt="40px"/>
+                <Image fluid src={linkedinLogo} width="40px" height="40px"/>
               </a>
             </div>
           </Col>
           <Col className="m-auto text-center">
             <div className="m-auto d-block">
               <a href="https://twitter.com/jm_goode" target="_blank" rel="noopener noreferrer">
-                <Image fluid src={twitterLogo} width="40px" heigt="40px"/>
+                <Image fluid src={twitterLogo} width="40px" height="40px"/>
               </a>
             </div>
           </Col>
