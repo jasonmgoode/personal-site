@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Footer() {
   return (
     <footer className="footer">
-      <Container fluid>
+      <Container fluid className="footer-container align-items-center">
         <Row className="m-auto">
           <Col className="my-auto mx-auto text-center">
             <a 
@@ -22,7 +22,7 @@ function Footer() {
           <Col className="m-auto text-center">
             <div className="mx-auto">
               <a href="https://github.com/jasonmgoode" target="_blank" rel="noopener noreferrer">
-                <Image fluid src={githubLogo} width="60px" height="60px"/>
+                <Image fluid src={githubLogo} width="70px" height="70px"/>
               </a>
             </div>
           </Col>
